@@ -7,7 +7,7 @@ Numbers:
 - normal (all above)
 - null (positive and negative)
 - not normal (Infinity, -Infinity, NaN (not-a-number))
-- Mathematical operators: +, -, *, /, **, &, +=, -+, /=, *=, **=, %=
+- Mathematical operators: +, -, *, /, **, %, ++, -- Prisikyrimo: +=, -+, /=, *=, **=, %=
 */
 
 const pirmas = 5;
@@ -116,3 +116,31 @@ y -= 5 * 4;
 y += 5 + 5 * 4;
 
 console.log(y);
+
+console.log('-----------');
+
+let makaronai = 2;
+console.log(makaronai);
+
+makaronai = makaronai + 2;
+console.log(makaronai);
+
+makaronai += 2;
+console.log(makaronai);
+
+makaronai++; // same as makaronai += 1; or makaronai = makaronai + 1;
+console.log(makaronai);
+
+makaronai--;
+console.log(makaronai);
+
+++makaronai;
+console.log(makaronai);
+
+console.log('--------');
+
+let g = 6;
+console.log(g);
+console.log(g++);
+console.log(g);
+console.log(++g);

@@ -22,16 +22,16 @@ Main programming topics:
 - data types;
 - comparing conditions;
 - cycles;
-- functions;
+- + functions;
 - class (object oriented programming);
 - event listeners;
 */
 
 /*
 Data types:
-- number;
-- string;
-- boolean;
+- + number;
+- + string;
+- + boolean;
 - array;
 - object (key - value);
 - null;
