@@ -10,6 +10,7 @@
     "typeof": "node --watch ./js/duomenys/typeof.js",
     "namu-darbai-ciklai": "node --watch ./js/namu-darbai/namu-darbai-ciklai.js",
     "for": "node --watch ./js/ciklai/for.js",
+    "namu-darbai:matrix":"node --watch ./js/namu-darbai/matrix.js",
     "namu-darbai:clock": "node --watch ./js/namu-darbai/clock.js",
     "namu-darbai": "node --watch ./js/namu-darbai/namu-darbai.js",
     "array": "node --watch ./js/duomenys/array.js",
