@@ -13,10 +13,6 @@ Multi lines comment
 // CTRL + X = cut text
 // CTRL + V = past text
 
-console.log(1);
-console.log(2);
-console.log(3);
-
 /*
 Main programming topics:
 - data types;
@@ -36,4 +32,11 @@ Data types:
 - object (key - value);
 - null;
 - undefined;
+*/
+
+/*
+Duomenu iniciavimo budai:
+- const: default
+- let: kai yra intencija keisti reiksme
+- var: seniena, primtakas, kurio reiketu nenaudoti, nebent zinai ka darai
 */

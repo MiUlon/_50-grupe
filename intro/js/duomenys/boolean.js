@@ -228,3 +228,10 @@ console.log('127. false || true || false || false', false || true || false || fa
 console.log('128. false || false || true || false', false || false || true || false);
 
 console.log('-------------------');
+console.clear();
+
+if (4 == '4') {
+    console.log('Taip');
+} else {
+    console.log('Ne');
+};

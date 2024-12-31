@@ -102,26 +102,29 @@ console.log('---------------');
 
 // split()
 console.log('split()');
-console.log('Labas'.split('aba')); // L, s
+console.log('Labas'.split('aba')); // [ 'L', 's' ]
+console.log('Labas rytas, Lietuva!'.split(' ')); // [ 'Labas', 'rytas,', 'Lietuva!' ]
+console.log('Labas'.split('s')); // [ 'Laba', '' ]
+console.log('Labas'.split('')); // [ 'L', 'a', 'b', 'a', 's' ]
 
 console.log('---------------');
 
 // toLowerCase()
 console.log('toLowerCase()');
-console.log('Labas'.toLowerCase()); // labas
+console.log('LABAS'.toLowerCase()); // labas
 
 console.log('---------------');
 
 // toUpperCase()
 console.log('toUpperCase()');
-console.log('Labas'.toUpperCase()); // LABAS
+console.log('labas'.toUpperCase()); // LABAS
 
 console.log('---------------');
 
 // trim()
 console.log('trim()');
 console.log('   L a b a s');
-console.log('   L a b a s'.trim()); // removes spaces at the beginning
+console.log('"' + '   L a b a s    '.trim() + '"'); // removes spaces at the beginning or end: result "L a b a s"
 
 console.log('---------------');
 
@@ -137,3 +140,10 @@ console.log('trimStart()');
 console.log('   L a b a s      ');
 console.log('   L a b a s       '.trimStart()); // removes spaces at the beginning
 
+console.log('---------------');
+
+const text = 'Labas rytas, Lietuva!';
+const correctText = text.replace(',', '').replace('!', '').split(' ');
+console.log(correctText);
+const newText = correctText[0] + ' ' + correctText[1] + ' ' + correctText[2];
+console.log(newText);

@@ -1,7 +1,7 @@
 /*
 STRING
 
-iniciavimas: ' (vienguba), " (dviguma)
+iniciavimas: ' (vienguba), " (dviguma), ` (backtick)
 */
 
 console.log('Test');
@@ -66,3 +66,90 @@ pinigine += papildymas;
 
 console.log('Pinigine papildyta:', papildymas);
 console.log('Pinigines turinys:', pinigine);
+
+console.clear();
+
+/*
+<header>
+    <img>
+    <nav>
+        <a></a>
+        <a></a>
+        <a></a>
+    </nav>
+</header>
+*/
+
+console.log('<header>');
+console.log('    <img>');
+console.log('    <nav>');
+console.log('        <a></a>');
+console.log('        <a></a>');
+console.log('        <a></a>');
+console.log('    </nav>');
+console.log('</header>');
+
+console.clear();
+
+// \r - return
+// \n - new line
+// \t - tab
+
+const HTML = '<header>\r\n\
+\t<img>\r\n\
+\t<nav>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t\t<a></a>\r\n\
+\t</nav>\r\n\
+</header>';
+
+console.log(HTML);
+
+console.clear();
+
+const backtick = `Labas rytas, Lietuva!`;
+console.log(backtick);
+
+const backtick1 = `Backtick (\`) kabute`;
+console.log(backtick1);
+
+const backtick2 = 'Backtick (`) kabute';
+console.log(backtick2);
+
+const HTML2 = `
+<header>
+    <img>
+    <nav>
+        <a></a>
+        <a></a>
+        <a></a>
+    </nav>
+</header>
+`;
+
+console.log(HTML2);
+
+const a = 5;
+const b = 7;
+const c = a + b;
+
+// print: 5 + 7 = 12
+
+console.log(a + ` + ` + b + ` = ` + c);
+
+console.log(`${a} + ${b} = ${c}`);
+
+console.clear();
+
+const start = 0;
+const end = 10;
+
+const text = 'Prasidejo nuo ' + start + ', o pasibaige ' + end + '.';
+console.log(text);
+
+const text2 = `Prasidejo nuo ${start}, o pasibaige ${end}.`;
+console.log(text2);
+
+console.clear();
+console.log('Labas' * 'rytas');

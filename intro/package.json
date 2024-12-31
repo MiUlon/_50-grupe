@@ -4,6 +4,9 @@
   "description": "Javascript intro",
   "main": "index.js",
   "scripts": {
+    "math": "node --watch ./js/method/math.js",
+    "ternary": "node --watch ./js/palyginimas/ternary.js",
+    "arrow": "node --watch ./js/funkcijos/arrow.js",
     "codewars:polish":"node --watch ./codewars/polish.js",
     "method:string": "node --watch ./js/method/string.js",
     "method:number": "node --watch ./js/method/number.js",
