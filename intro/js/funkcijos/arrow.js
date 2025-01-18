@@ -153,3 +153,16 @@ console.clear();
 const du = () => 'DU';
 
 console.log(du());
+
+console.clear();
+
+const powerOfTwo1 = [];
+const powerOfTwo2 = [];
+
+for (let i = 0; i < 10; i++) {
+    powerOfTwo1.push(i ** 2);
+    powerOfTwo2.unshift(i ** 2);
+};
+
+console.log(powerOfTwo1);
+console.log(powerOfTwo2);

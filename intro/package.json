@@ -4,6 +4,11 @@
   "description": "Javascript intro",
   "main": "index.js",
   "scripts": {
+    "destructuring": "node --watch ./js/method/destructuring.js",
+    "spread": "node --watch ./js/method/spread.js",
+    "eval": "node --watch ./js/namu-darbai/eval.js",
+    "object": "node --watch ./js/duomenys/object.js",
+    "random":"node --watch ./js/method/random.js",
     "math": "node --watch ./js/method/math.js",
     "ternary": "node --watch ./js/palyginimas/ternary.js",
     "arrow": "node --watch ./js/funkcijos/arrow.js",
