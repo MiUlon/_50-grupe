@@ -116,3 +116,6 @@ console.log(sentence2);
 const { title: title3, count: count3 } = food();
 const sentence3 = `Valgysi: ${title3}; Kiekis: ${count3}.`;
 console.log(sentence3);
+
+console.clear();
+
